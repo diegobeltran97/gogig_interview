@@ -40,7 +40,7 @@ function App() {
 
     const detailsPromise = await Promise.all(pokemonDetails);
 
-    console.log("pokemo detail", detailsPromise);
+
 
     if (detailsPromise.length > 0) {
       //setData([...response.results]);
